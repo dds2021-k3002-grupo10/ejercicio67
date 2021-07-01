@@ -5,7 +5,7 @@ import domain.entities.vehiculo.Ambulancia;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BaseSimple extends Base{
+public class BaseSimple implements Base{
     private List<Ambulancia> ambulanciasDisponibles = new ArrayList<>();
 
     @Override

@@ -1,15 +1,8 @@
 package domain.entities.bases;
 
-public class Base {
-    private String nombre;
+public interface Base {
 
-    public Double calcularTiempoMedio(){
+    public Integer ambulancias();
 
-        return 0.0;
-    }
-
-    public Integer ambulancias(){
-
-        return 0;
-    }
+    public Double calcularTiempoMedio();
 }
